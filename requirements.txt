@@ -1,0 +1,10 @@
+anthropic
+pydantic
+streamlit
+pytest
+typer
+fpdf2
+pypdf
+pypdfium2
+pytesseract
+Pillow

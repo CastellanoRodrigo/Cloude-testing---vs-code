@@ -1,0 +1,10 @@
+[theme]
+base = "light"
+primaryColor = "#0b57d0"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#eef0f3"
+textColor = "#1f2328"
+
+[server]
+maxUploadSize = 5
+enableStaticServing = true

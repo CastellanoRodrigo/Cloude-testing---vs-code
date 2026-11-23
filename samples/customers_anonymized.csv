@@ -1,0 +1,5 @@
+﻿name,email,national_id,notes
+Ana Perez,[EMAIL_REDACTED],[DOCUMENT_ID_REDACTED],Prefers phone contact
+Luis Gomez,[EMAIL_REDACTED],[DOCUMENT_ID_REDACTED],Order 4471 shipped
+Test User,[DOCUMENT_ID_REDACTED],,SSN style id in wrong column
+Dev Team,[EMAIL_REDACTED],,key [API_KEY_REDACTED]

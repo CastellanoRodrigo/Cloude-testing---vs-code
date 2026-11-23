@@ -1,0 +1,5 @@
+﻿name,email,national_id,notes
+Ana Perez,ana.perez@example.com,12345678Z,Prefers phone contact
+Luis Gomez,luis.gomez@example.org,98765432M,Order 4471 shipped
+Test User,123-45-6789,,SSN style id in wrong column
+Dev Team,devteam@example.com,,key sk-ZZZZ1111aaaa2222bbbb3333cccc

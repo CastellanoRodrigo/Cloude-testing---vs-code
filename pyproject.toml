@@ -1,0 +1,24 @@
+[project]
+name = "ai_data_guardian_lite"
+version = "0.1.0"
+description = "ai_data_guardian_lite using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[file-processing,litellm,tools]>=1.15.28,<2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_data_guardian_lite"]
+
+[tool.crewai]
+type = "flow"
+definition = "src/ai_data_guardian_lite/flow.json"
+project_id = "3bded59d-a640-4a24-ac84-7e0609c826a6"
+
+[tool.uv]
+override-dependencies = ["litellm<=1.82.6"]
