@@ -3,3 +3,7 @@
 __pycache__/
 .crewai/
 output/
+data/
+*.db
+.venv-win/
+.pytest_cache/
